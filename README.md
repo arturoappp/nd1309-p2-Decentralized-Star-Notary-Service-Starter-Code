@@ -123,7 +123,7 @@ Error: Truffle is currently using solc 0.5.16, but one or more of your contracts
 // Configure your compilers  
 compilers: {    
   solc: {      
-    version: "0.5.16", // <- Use this        
+    version: "0.5.16" // <- Use this        
     // docker: true,
     // ...
 ```
@@ -136,3 +136,64 @@ compilers: {
 ---
 
 Do not use the [Old depreacted zipped starter code](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/January/5c51c4c0_project-5-starter-code/project-5-starter-code.zip)
+
+
+2_deploy_contracts.js
+=====================
+
+Deploying 'StarNotary'
+----------------------
+> block number:        6033577
+> block timestamp:     1717446996
+> account:             0x9e30CF133Ae3aa49f6925a5D636BD464Cf304755
+> balance:             0.157947941647142832
+> gas used:            2998172 (0x2dbf9c)
+> gas price:           10 gwei
+> value sent:          0 ETH
+> total cost:          0.02998172 ETH
+
+   -------------------------------------
+> Total cost:          0.02998172 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.02998172 ETH
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'sepolia'
+> Network id:      11155111
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+2_deploy_contracts.js
+=====================
+
+Deploying 'StarNotary'
+----------------------
+> transaction hash:    0x0a7289fc2a3e804778d21fdae6f670c4a80720d9ff3d9ee9df6def5bc0bdcdb1
+> Blocks: 1            Seconds: 8
+> contract address:    0x791F014d3aCFFBD6A23046DE953079EcbB03F662
+> block number:        6033582
+> block timestamp:     1717447008
+> account:             0x9e30CF133Ae3aa49f6925a5D636BD464Cf304755
+> balance:             0.157947941647142832
+> gas used:            2998172 (0x2dbf9c)
+> gas price:           10 gwei
+> value sent:          0 ETH
+> total cost:          0.02998172 ETH
+
+> Saving migration to chain.
+> Saving artifacts
+   -------------------------------------
+> Total cost:          0.02998172 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.02998172 ETH
+

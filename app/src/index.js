@@ -41,7 +41,15 @@ const App = {
 
   // Implement Task 4 Modify the front end of the DAPP
   lookUp: async function (){
-    
+    const { lookUptokenIdToStarInfo } = this.meta.methods;
+    const id = document.getElementById("lookid").value;
+    try {
+      const starName = await lookUptokenIdToStarInfo(id).call();
+      App.setStatus("Star Name is " + starName + ".");
+    } catch (error) {
+      console.error("Could not fetch star information.", error);
+      App.setStatus("Error: Could not fetch star information.");
+    }
   }
 
 };
